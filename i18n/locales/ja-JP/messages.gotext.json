@@ -1,0 +1,1548 @@
+{
+    "language": "ja-JP",
+    "messages": [
+        {
+            "id": "Version: {Number}",
+            "message": "Version: {Number}",
+            "translation": "バージョン：{Number}",
+            "placeholders": [
+                {
+                    "id": "Number",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "version.Number"
+                }
+            ]
+        },
+        {
+            "id": "FRP version: {FRPVersion}",
+            "message": "FRP version: {FRPVersion}",
+            "translation": "FRP バージョン：{FRPVersion}",
+            "placeholders": [
+                {
+                    "id": "FRPVersion",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "version.FRPVersion"
+                }
+            ]
+        },
+        {
+            "id": "Built on: {BuildDate}",
+            "message": "Built on: {BuildDate}",
+            "translation": "コンパイル日：{BuildDate}",
+            "placeholders": [
+                {
+                    "id": "BuildDate",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "version.BuildDate"
+                }
+            ]
+        },
+        {
+            "id": "All Files",
+            "message": "All Files",
+            "translation": "すべてのファイル"
+        },
+        {
+            "id": "Configuration Files",
+            "message": "Configuration Files",
+            "translation": "設定ファイル"
+        },
+        {
+            "id": "Certificate Files",
+            "message": "Certificate Files",
+            "translation": "証明書ファイル"
+        },
+        {
+            "id": "Key Files",
+            "message": "Key Files",
+            "translation": "秘密鍵ファイル"
+        },
+        {
+            "id": "Log Files",
+            "message": "Log Files",
+            "translation": "ログファイル"
+        },
+        {
+            "id": "Number out of allowed range",
+            "message": "Number out of allowed range",
+            "translation": "許容範囲外の数値"
+        },
+        {
+            "id": "Please enter a number greater than {Intt}.",
+            "message": "Please enter a number greater than {Intt}.",
+            "translation": "{Intt} より大きい数値を入力してください。",
+            "placeholders": [
+                {
+                    "id": "Intt",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "int(t)"
+                }
+            ]
+        },
+        {
+            "id": "Password mismatch",
+            "message": "Password mismatch",
+            "translation": "パスワードの不一致"
+        },
+        {
+            "id": "Please check and try again.",
+            "message": "Please check and try again.",
+            "translation": "もう一度確認してください。"
+        },
+        {
+            "id": "Not a number",
+            "message": "Not a number",
+            "translation": "数字ではありません"
+        },
+        {
+            "id": "Please enter a valid number.",
+            "message": "Please enter a valid number.",
+            "translation": "有効な数値を入力してください。"
+        },
+        {
+            "id": "New Version!",
+            "message": "New Version!",
+            "translation": "新しいバージョン！"
+        },
+        {
+            "id": "About",
+            "message": "About",
+            "translation": "約"
+        },
+        {
+            "id": "Download updates",
+            "message": "Download updates",
+            "translation": "更新をダウンロード"
+        },
+        {
+            "id": "Checking for updates",
+            "message": "Checking for updates",
+            "translation": "アップデートの確認"
+        },
+        {
+            "id": "Check for updates",
+            "message": "Check for updates",
+            "translation": "更新を確認する"
+        },
+        {
+            "id": "For comments or to report bugs, please visit the project page:",
+            "message": "For comments or to report bugs, please visit the project page:",
+            "translation": "コメントやバグの報告については、プロジェクトページにアクセスしてください："
+        },
+        {
+            "id": "For FRP configuration documentation, please visit the FRP project page:",
+            "message": "For FRP configuration documentation, please visit the FRP project page:",
+            "translation": "FRP 設定ドキュメントについては、FRP プロジェクトページにアクセスしてください："
+        },
+        {
+            "id": "An error occurred while checking for a software update.",
+            "message": "An error occurred while checking for a software update.",
+            "translation": "ソフトウェアアップデートの確認中にエラーが発生しました。"
+        },
+        {
+            "id": "There are currently no updates available.",
+            "message": "There are currently no updates available.",
+            "translation": "現在、利用可能なアップデートはありません。"
+        },
+        {
+            "id": "OK",
+            "message": "OK",
+            "translation": "OK"
+        },
+        {
+            "id": "Cancel",
+            "message": "Cancel",
+            "translation": "キャンセル"
+        },
+        {
+            "id": "Configuration",
+            "message": "Configuration",
+            "translation": "設定"
+        },
+        {
+            "id": "New Configuration",
+            "message": "New Configuration",
+            "translation": "新しい設定"
+        },
+        {
+            "id": "Import Config from File",
+            "message": "Import Config from File",
+            "translation": "ファイルから設定をインポートする"
+        },
+        {
+            "id": "Config already removed",
+            "message": "Config already removed",
+            "translation": "設定はすでに削除されています"
+        },
+        {
+            "id": "The config \"{Name}\" already removed.",
+            "message": "The config \"{Name}\" already removed.",
+            "translation": "設定「{Name}」は既に削除されています。",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "Edit",
+            "message": "Edit",
+            "translation": "編集"
+        },
+        {
+            "id": "Open File",
+            "message": "Open File",
+            "translation": "ファイルを開く"
+        },
+        {
+            "id": "Show in Folder",
+            "message": "Show in Folder",
+            "translation": "フォルダで見て"
+        },
+        {
+            "id": "Create a Copy",
+            "message": "Create a Copy",
+            "translation": "コピーを作成する"
+        },
+        {
+            "id": "All",
+            "message": "All",
+            "translation": "全て"
+        },
+        {
+            "id": "Common Only",
+            "message": "Common Only",
+            "translation": "共通設定のみ"
+        },
+        {
+            "id": "Import Config",
+            "message": "Import Config",
+            "translation": "設定のインポート"
+        },
+        {
+            "id": "Import from File",
+            "message": "Import from File",
+            "translation": "ファイルからインポート"
+        },
+        {
+            "id": "Import from URL",
+            "message": "Import from URL",
+            "translation": "URLからインポート"
+        },
+        {
+            "id": "Import from Clipboard",
+            "message": "Import from Clipboard",
+            "translation": "クリップボードからインポート"
+        },
+        {
+            "id": "NAT Discovery",
+            "message": "NAT Discovery",
+            "translation": "NAT 検出"
+        },
+        {
+            "id": "Copy Share Link",
+            "message": "Copy Share Link",
+            "translation": "共有リンクをコピー"
+        },
+        {
+            "id": "Export All Configs to ZIP",
+            "message": "Export All Configs to ZIP",
+            "translation": "すべての設定をZIPにエクスポート"
+        },
+        {
+            "id": "Delete",
+            "message": "Delete",
+            "translation": "削除"
+        },
+        {
+            "id": "New Config",
+            "message": "New Config",
+            "translation": "新しい設定"
+        },
+        {
+            "id": "Manual Settings",
+            "message": "Manual Settings",
+            "translation": "手動設定"
+        },
+        {
+            "id": "Imported {Imported} of {Total} configs.",
+            "message": "Imported {Imported} of {Total} configs.",
+            "translation": {
+                "select": {
+                    "feature": "plural",
+                    "arg": "Total",
+                    "cases": {
+                        "other": {
+                            "msg": "{Total} 中の {Imported} 設定をインポートしました。"
+                        }
+                    }
+                }
+            },
+            "placeholders": [
+                {
+                    "id": "Imported",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "imported"
+                },
+                {
+                    "id": "Total",
+                    "string": "%[2]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 2,
+                    "expr": "total"
+                }
+            ]
+        },
+        {
+            "id": "Another config already exists with the name \"{BaseName}\".",
+            "message": "Another config already exists with the name \"{BaseName}\".",
+            "translation": "「{BaseName}」という名前の別の設定が既に存在します。",
+            "placeholders": [
+                {
+                    "id": "BaseName",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "baseName"
+                }
+            ]
+        },
+        {
+            "id": "The file \"{Path}\" is not a valid ZIP file.",
+            "message": "The file \"{Path}\" is not a valid ZIP file.",
+            "translation": "ファイル「{Path}」は有効な ZIP ファイルではありません。",
+            "placeholders": [
+                {
+                    "id": "Path",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "path"
+                }
+            ]
+        },
+        {
+            "id": "Delete config \"{Name}\"",
+            "message": "Delete config \"{Name}\"",
+            "translation": "設定「{Name}」を削除",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to delete config \"{Name}\"?",
+            "message": "Are you sure you would like to delete config \"{Name}\"?",
+            "translation": "設定「{Name}」を削除してもよろしいですか?",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name"
+                }
+            ]
+        },
+        {
+            "id": "New Client",
+            "message": "New Client",
+            "translation": "新しいクライアント"
+        },
+        {
+            "id": "Edit Client - {Name}",
+            "message": "Edit Client - {Name}",
+            "translation": "クライアントの編集 - {Name}",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "cd.Conf.Name"
+                }
+            ]
+        },
+        {
+            "id": "Basic",
+            "message": "Basic",
+            "translation": "基本"
+        },
+        {
+            "id": "Name",
+            "message": "Name",
+            "translation": "名前"
+        },
+        {
+            "id": "Server Address",
+            "message": "Server Address",
+            "translation": "サーバーアドレス"
+        },
+        {
+            "id": "Server Port",
+            "message": "Server Port",
+            "translation": "サーバポート"
+        },
+        {
+            "id": "User",
+            "message": "User",
+            "translation": "ユーザー"
+        },
+        {
+            "id": "STUN Server",
+            "message": "STUN Server",
+            "translation": "STUNサーバー"
+        },
+        {
+            "id": "Auth",
+            "message": "Auth",
+            "translation": "認証"
+        },
+        {
+            "id": "Auth Method",
+            "message": "Auth Method",
+            "translation": "認証方法"
+        },
+        {
+            "id": "None",
+            "message": "None",
+            "translation": "なし"
+        },
+        {
+            "id": "Token",
+            "message": "Token",
+            "translation": "トークン"
+        },
+        {
+            "id": "Secret",
+            "message": "Secret",
+            "translation": "秘密鍵"
+        },
+        {
+            "id": "Audience",
+            "message": "Audience",
+            "translation": "受信者"
+        },
+        {
+            "id": "Scope",
+            "message": "Scope",
+            "translation": "範囲"
+        },
+        {
+            "id": "Token Endpoint",
+            "message": "Token Endpoint",
+            "translation": "トークンのURL"
+        },
+        {
+            "id": "Authentication",
+            "message": "Authentication",
+            "translation": "認証"
+        },
+        {
+            "id": "Heart Beats",
+            "message": "Heart Beats",
+            "translation": "接続を維持"
+        },
+        {
+            "id": "Work Conns",
+            "message": "Work Conns",
+            "translation": "作業接続"
+        },
+        {
+            "id": "Log",
+            "message": "Log",
+            "translation": "ログ"
+        },
+        {
+            "id": "* Leave blank to record no log and delete the original log file.",
+            "message": "* Leave blank to record no log and delete the original log file.",
+            "translation": "* ログを記録せず、元のログファイルを削除するには、空白のままにします。"
+        },
+        {
+            "id": "Log File",
+            "message": "Log File",
+            "translation": "ログファイル"
+        },
+        {
+            "id": "Select Log File",
+            "message": "Select Log File",
+            "translation": "ログファイルを選択"
+        },
+        {
+            "id": "Level",
+            "message": "Level",
+            "translation": "レベル"
+        },
+        {
+            "id": "Max Days",
+            "message": "Max Days",
+            "translation": "最大日数"
+        },
+        {
+            "id": "Admin",
+            "message": "Admin",
+            "translation": "管理者"
+        },
+        {
+            "id": "Admin Address",
+            "message": "Admin Address",
+            "translation": "管理者アドレス"
+        },
+        {
+            "id": "Admin Port",
+            "message": "Admin Port",
+            "translation": "管理ポート"
+        },
+        {
+            "id": "Password",
+            "message": "Password",
+            "translation": "パスワード"
+        },
+        {
+            "id": "Assets",
+            "message": "Assets",
+            "translation": "資産"
+        },
+        {
+            "id": "Select a local directory that the admin server will load resources from.",
+            "message": "Select a local directory that the admin server will load resources from.",
+            "translation": "管理サーバーがリソースをロードするローカルディレクトリを選択します。"
+        },
+        {
+            "id": "Auto Delete",
+            "message": "Auto Delete",
+            "translation": "自動削除"
+        },
+        {
+            "id": "Absolute",
+            "message": "Absolute",
+            "translation": "絶対"
+        },
+        {
+            "id": "Relative",
+            "message": "Relative",
+            "translation": "相対"
+        },
+        {
+            "id": "Delete Date",
+            "message": "Delete Date",
+            "translation": "削除日"
+        },
+        {
+            "id": "Delete Days",
+            "message": "Delete Days",
+            "translation": "日を削除"
+        },
+        {
+            "id": "Days",
+            "message": "Days",
+            "translation": "日"
+        },
+        {
+            "id": "Connection",
+            "message": "Connection",
+            "translation": "接続"
+        },
+        {
+            "id": "Protocol",
+            "message": "Protocol",
+            "translation": "プロトコル"
+        },
+        {
+            "id": "HTTP Proxy",
+            "message": "HTTP Proxy",
+            "translation": "HTTP プロキシ"
+        },
+        {
+            "id": "Pool Count",
+            "message": "Pool Count",
+            "translation": "接続プールの数"
+        },
+        {
+            "id": "Heartbeat",
+            "message": "Heartbeat",
+            "translation": "ハートビート"
+        },
+        {
+            "id": "Interval",
+            "message": "Interval",
+            "translation": "間隔"
+        },
+        {
+            "id": "s",
+            "message": "s",
+            "translation": "s"
+        },
+        {
+            "id": "Timeout",
+            "message": "Timeout",
+            "translation": "タイムアウト"
+        },
+        {
+            "id": "Dial Timeout",
+            "message": "Dial Timeout",
+            "translation": "接続タイムアウト"
+        },
+        {
+            "id": "Keepalive",
+            "message": "Keepalive",
+            "translation": "接続を維持"
+        },
+        {
+            "id": "Idle Timeout",
+            "message": "Idle Timeout",
+            "translation": "アイドルタイムアウト"
+        },
+        {
+            "id": "Max Streams",
+            "message": "Max Streams",
+            "translation": "最大ストリーム"
+        },
+        {
+            "id": "On",
+            "message": "On",
+            "translation": "有効"
+        },
+        {
+            "id": "Off",
+            "message": "Off",
+            "translation": "無効"
+        },
+        {
+            "id": "Host Name",
+            "message": "Host Name",
+            "translation": "ホスト名"
+        },
+        {
+            "id": "Certificate",
+            "message": "Certificate",
+            "translation": "証明書"
+        },
+        {
+            "id": "Select Certificate File",
+            "message": "Select Certificate File",
+            "translation": "証明書ファイルを選択"
+        },
+        {
+            "id": "Certificate Key",
+            "message": "Certificate Key",
+            "translation": "証明書キー"
+        },
+        {
+            "id": "Select Certificate Key File",
+            "message": "Select Certificate Key File",
+            "translation": "証明書キーファイルを選択します"
+        },
+        {
+            "id": "Trusted CA",
+            "message": "Trusted CA",
+            "translation": "信頼できる CA"
+        },
+        {
+            "id": "Select Trusted CA File",
+            "message": "Select Trusted CA File",
+            "translation": "信頼できる CA ファイルを選択します"
+        },
+        {
+            "id": "Advanced",
+            "message": "Advanced",
+            "translation": "高度"
+        },
+        {
+            "id": "TCP Mux",
+            "message": "TCP Mux",
+            "translation": "多重化"
+        },
+        {
+            "id": "Mux Keepalive",
+            "message": "Mux Keepalive",
+            "translation": "多重化接続を維持"
+        },
+        {
+            "id": "Source Address",
+            "message": "Source Address",
+            "translation": "送信元アドレス"
+        },
+        {
+            "id": "Other Options",
+            "message": "Other Options",
+            "translation": "別のオプション"
+        },
+        {
+            "id": "Exit after login failure",
+            "message": "Exit after login failure",
+            "translation": "ログイン失敗後に終了"
+        },
+        {
+            "id": "Disable auto-start at boot",
+            "message": "Disable auto-start at boot",
+            "translation": "起動時に自動起動を無効にする"
+        },
+        {
+            "id": "Custom",
+            "message": "Custom",
+            "translation": "カスタム"
+        },
+        {
+            "id": "Experimental Features",
+            "message": "Experimental Features",
+            "translation": "実験的な機能"
+        },
+        {
+            "id": "Custom Options",
+            "message": "Custom Options",
+            "translation": "カスタムオプション"
+        },
+        {
+            "id": "* Refer to the [common] section of the FRP configuration file.",
+            "message": "* Refer to the [common] section of the FRP configuration file.",
+            "translation": "* FRP 設定ファイルの [common] セクションを参照してください。"
+        },
+        {
+            "id": "* The following features may affect the stability of the service.",
+            "message": "* The following features may affect the stability of the service.",
+            "translation": "* 以下の機能はサービスの安定性に影響を与える可能性があります。"
+        },
+        {
+            "id": "Use server SVCB records",
+            "message": "Use server SVCB records",
+            "translation": "サーバーSVCBレコードを使用する"
+        },
+        {
+            "id": "Config already exists",
+            "message": "Config already exists",
+            "translation": "設定はすでに存在します"
+        },
+        {
+            "id": "The config name \"{Name}\" already exists.",
+            "message": "The config name \"{Name}\" already exists.",
+            "translation": "設定名「{Name}」はすでに存在します。",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "New Proxy",
+            "message": "New Proxy",
+            "translation": "新しいプロキシ"
+        },
+        {
+            "id": "Edit Proxy - {Name}",
+            "message": "Edit Proxy - {Name}",
+            "translation": "プロキシの編集 - {Name}",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "pd.Proxy.Name"
+                }
+            ]
+        },
+        {
+            "id": "Random",
+            "message": "Random",
+            "translation": "ランダム"
+        },
+        {
+            "id": "Type",
+            "message": "Type",
+            "translation": "タイプ"
+        },
+        {
+            "id": "Role",
+            "message": "Role",
+            "translation": "役割"
+        },
+        {
+            "id": "Server",
+            "message": "Server",
+            "translation": "サーバ"
+        },
+        {
+            "id": "Visitor",
+            "message": "Visitor",
+            "translation": "ビジター"
+        },
+        {
+            "id": "Secret Key",
+            "message": "Secret Key",
+            "translation": "秘密鍵"
+        },
+        {
+            "id": "Local Address",
+            "message": "Local Address",
+            "translation": "ローカルアドレス"
+        },
+        {
+            "id": "Local Port",
+            "message": "Local Port",
+            "translation": "ローカルポート"
+        },
+        {
+            "id": "Remote Port",
+            "message": "Remote Port",
+            "translation": "リモートポート"
+        },
+        {
+            "id": "Allow Users",
+            "message": "Allow Users",
+            "translation": "ユーザーを許可する"
+        },
+        {
+            "id": "Bind Address",
+            "message": "Bind Address",
+            "translation": "バインドアドレス"
+        },
+        {
+            "id": "Bind Port",
+            "message": "Bind Port",
+            "translation": "バインドポート"
+        },
+        {
+            "id": "Server Name",
+            "message": "Server Name",
+            "translation": "サーバー名"
+        },
+        {
+            "id": "Server User",
+            "message": "Server User",
+            "translation": "サーバーユーザー"
+        },
+        {
+            "id": "Subdomain",
+            "message": "Subdomain",
+            "translation": "サブドメイン"
+        },
+        {
+            "id": "Custom Domains",
+            "message": "Custom Domains",
+            "translation": "カスタムドメイン"
+        },
+        {
+            "id": "Locations",
+            "message": "Locations",
+            "translation": "URL ルーティング"
+        },
+        {
+            "id": "Multiplexer",
+            "message": "Multiplexer",
+            "translation": "マルチプレクサ"
+        },
+        {
+            "id": "Route User",
+            "message": "Route User",
+            "translation": "ルートユーザー"
+        },
+        {
+            "id": "Client",
+            "message": "Client",
+            "translation": "クライアント"
+        },
+        {
+            "id": "Bandwidth",
+            "message": "Bandwidth",
+            "translation": "帯域幅"
+        },
+        {
+            "id": "Proxy Protocol",
+            "message": "Proxy Protocol",
+            "translation": "プロキシプロトコル"
+        },
+        {
+            "id": "auto",
+            "message": "auto",
+            "translation": "自動"
+        },
+        {
+            "id": "default",
+            "message": "default",
+            "translation": "既定値"
+        },
+        {
+            "id": "Keep Tunnel",
+            "message": "Keep Tunnel",
+            "translation": "トンネルを維持する"
+        },
+        {
+            "id": "Encryption",
+            "message": "Encryption",
+            "translation": "暗号化"
+        },
+        {
+            "id": "Compression",
+            "message": "Compression",
+            "translation": "圧縮"
+        },
+        {
+            "id": "Retry Count",
+            "message": "Retry Count",
+            "translation": "リトライ回数"
+        },
+        {
+            "id": "Times/Hour",
+            "message": "Times/Hour",
+            "translation": "回/時間"
+        },
+        {
+            "id": "Retry Interval",
+            "message": "Retry Interval",
+            "translation": "再試行間隔"
+        },
+        {
+            "id": "Fallback",
+            "message": "Fallback",
+            "translation": "代替"
+        },
+        {
+            "id": "Fallback Timeout",
+            "message": "Fallback Timeout",
+            "translation": "フォールバックタイムアウト"
+        },
+        {
+            "id": "ms",
+            "message": "ms",
+            "translation": "ミリ秒"
+        },
+        {
+            "id": "HTTP User",
+            "message": "HTTP User",
+            "translation": "HTTP ユーザー"
+        },
+        {
+            "id": "HTTP Password",
+            "message": "HTTP Password",
+            "translation": "HTTP パスワード"
+        },
+        {
+            "id": "Host Rewrite",
+            "message": "Host Rewrite",
+            "translation": "ホストの書き換え"
+        },
+        {
+            "id": "Plugin",
+            "message": "Plugin",
+            "translation": "プラグイン"
+        },
+        {
+            "id": "Plugin Name",
+            "message": "Plugin Name",
+            "translation": "プラグイン名"
+        },
+        {
+            "id": "Unix Path",
+            "message": "Unix Path",
+            "translation": "Unix パス"
+        },
+        {
+            "id": "Select Unix Path",
+            "message": "Select Unix Path",
+            "translation": "Unix パスを選択"
+        },
+        {
+            "id": "Local Path",
+            "message": "Local Path",
+            "translation": "ローカルパス"
+        },
+        {
+            "id": "Select a folder for directory listing.",
+            "message": "Select a folder for directory listing.",
+            "translation": "ディレクトリリストのフォルダを選択します。"
+        },
+        {
+            "id": "Strip Prefix",
+            "message": "Strip Prefix",
+            "translation": "プレフィックスを削除"
+        },
+        {
+            "id": "Load Balance",
+            "message": "Load Balance",
+            "translation": "負荷平衡"
+        },
+        {
+            "id": "Group",
+            "message": "Group",
+            "translation": "グループ"
+        },
+        {
+            "id": "Group Key",
+            "message": "Group Key",
+            "translation": "グループ秘密鍵"
+        },
+        {
+            "id": "Health Check",
+            "message": "Health Check",
+            "translation": "健康診断"
+        },
+        {
+            "id": "Check Type",
+            "message": "Check Type",
+            "translation": "タイプ"
+        },
+        {
+            "id": "Check Timeout",
+            "message": "Check Timeout",
+            "translation": "タイムアウト"
+        },
+        {
+            "id": "Failure Count",
+            "message": "Failure Count",
+            "translation": "失敗数"
+        },
+        {
+            "id": "Check Interval",
+            "message": "Check Interval",
+            "translation": "チェック間隔"
+        },
+        {
+            "id": "* Refer to the parameters supported by FRP.",
+            "message": "* Refer to the parameters supported by FRP.",
+            "translation": "* FRP 対応のパラメータをご参照ください。"
+        },
+        {
+            "id": "Proxy already exists",
+            "message": "Proxy already exists",
+            "translation": "プロキシはすでに存在します"
+        },
+        {
+            "id": "The proxy name \"{Name}\" already exists.",
+            "message": "The proxy name \"{Name}\" already exists.",
+            "translation": "プロキシ名「{Name}」はすでに存在します。",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "Open Log Folder",
+            "message": "Open Log Folder",
+            "translation": "ログフォルダを開く"
+        },
+        {
+            "id": "Latest",
+            "message": "Latest",
+            "translation": "最新"
+        },
+        {
+            "id": "Item",
+            "message": "Item",
+            "translation": "項目"
+        },
+        {
+            "id": "Value",
+            "message": "Value",
+            "translation": "値"
+        },
+        {
+            "id": "NAT Type",
+            "message": "NAT Type",
+            "translation": "NAT タイプ"
+        },
+        {
+            "id": "Behavior",
+            "message": "Behavior",
+            "translation": "挙動"
+        },
+        {
+            "id": "External Address",
+            "message": "External Address",
+            "translation": "外部アドレス"
+        },
+        {
+            "id": "Yes",
+            "message": "Yes",
+            "translation": "はい"
+        },
+        {
+            "id": "No",
+            "message": "No",
+            "translation": "いいえ"
+        },
+        {
+            "id": "Public Network",
+            "message": "Public Network",
+            "translation": "公共のネットワーク"
+        },
+        {
+            "id": "Unknown",
+            "message": "Unknown",
+            "translation": "わからない"
+        },
+        {
+            "id": "Running",
+            "message": "Running",
+            "translation": "ランニング"
+        },
+        {
+            "id": "Stopped",
+            "message": "Stopped",
+            "translation": "停止"
+        },
+        {
+            "id": "Starting",
+            "message": "Starting",
+            "translation": "起動"
+        },
+        {
+            "id": "Stopping",
+            "message": "Stopping",
+            "translation": "停止"
+        },
+        {
+            "id": "Status",
+            "message": "Status",
+            "translation": "状態"
+        },
+        {
+            "id": "Remote Address",
+            "message": "Remote Address",
+            "translation": "リモートアドレス"
+        },
+        {
+            "id": "Copy",
+            "message": "Copy",
+            "translation": "コピー"
+        },
+        {
+            "id": "Start",
+            "message": "Start",
+            "translation": "始める"
+        },
+        {
+            "id": "Service",
+            "message": "Service",
+            "translation": "サービス"
+        },
+        {
+            "id": "Stop config \"{Name}\"",
+            "message": "Stop config \"{Name}\"",
+            "translation": "設定「{Name}」を停止します",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to stop config \"{Name}\"?",
+            "message": "Are you sure you would like to stop config \"{Name}\"?",
+            "translation": "設定「{Name}」を停止してもよろしいですか?",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name"
+                }
+            ]
+        },
+        {
+            "id": "Stop",
+            "message": "Stop",
+            "translation": "止まる"
+        },
+        {
+            "id": "Local Directory",
+            "message": "Local Directory",
+            "translation": "フォルダ"
+        },
+        {
+            "id": "Add",
+            "message": "Add",
+            "translation": "追加"
+        },
+        {
+            "id": "Port",
+            "message": "Port",
+            "translation": "ポート"
+        },
+        {
+            "id": "Open Port",
+            "message": "Open Port",
+            "translation": "ポート開放"
+        },
+        {
+            "id": "Preferences",
+            "message": "Preferences",
+            "translation": "環境設定"
+        },
+        {
+            "id": "Master password",
+            "message": "Master password",
+            "translation": "マスターパスワード"
+        },
+        {
+            "id": "You can set a password to restrict access to this program.\nYou will be asked to enter it the next time you use this program.",
+            "message": "You can set a password to restrict access to this program.\nYou will be asked to enter it the next time you use this program.",
+            "translation": "パスワードを設定して、このプログラムへのアクセスを制限できます。\n次回このプログラムを使用するときに入力するよう求められます。"
+        },
+        {
+            "id": "Use master password",
+            "message": "Use master password",
+            "translation": "マスターパスワードを使用する"
+        },
+        {
+            "id": "Change Password",
+            "message": "Change Password",
+            "translation": "パスワードを変更する"
+        },
+        {
+            "id": "Languages",
+            "message": "Languages",
+            "translation": "言語"
+        },
+        {
+            "id": "The current display language is",
+            "message": "The current display language is",
+            "translation": "現在の表示言語は"
+        },
+        {
+            "id": "You must restart program to apply the modification.",
+            "message": "You must restart program to apply the modification.",
+            "translation": "変更を適用するには、プログラムを再起動する必要があります。"
+        },
+        {
+            "id": "Select language",
+            "message": "Select language",
+            "translation": "言語を選択する"
+        },
+        {
+            "id": "Defaults",
+            "message": "Defaults",
+            "translation": "デフォルト"
+        },
+        {
+            "id": "Define the default value when creating a new configuration.\nThe value here will not affect the existing configuration.",
+            "message": "Define the default value when creating a new configuration.\nThe value here will not affect the existing configuration.",
+            "translation": "新しい設定を作成するときのデフォルト値を定義します。\nここでの値は、既存の設定には影響しません。"
+        },
+        {
+            "id": "Set Defaults",
+            "message": "Set Defaults",
+            "translation": "デフォルトの設定"
+        },
+        {
+            "id": "Password removed.",
+            "message": "Password removed.",
+            "translation": "パスワードが解除されました。"
+        },
+        {
+            "id": "New master password",
+            "message": "New master password",
+            "translation": "新しいマスターパスワード"
+        },
+        {
+            "id": "Re-enter password",
+            "message": "Re-enter password",
+            "translation": "再入力"
+        },
+        {
+            "id": "Password is set.",
+            "message": "Password is set.",
+            "translation": "パスワードが設定されています。"
+        },
+        {
+            "id": "Log Level",
+            "message": "Log Level",
+            "translation": "ログレベル"
+        },
+        {
+            "id": "Log retention",
+            "message": "Log retention",
+            "translation": "ログ保持"
+        },
+        {
+            "id": "Quick Add",
+            "message": "Quick Add",
+            "translation": "クイック追加"
+        },
+        {
+            "id": "Remote Desktop",
+            "message": "Remote Desktop",
+            "translation": "リモートデスクトップ"
+        },
+        {
+            "id": "HTTP File Server",
+            "message": "HTTP File Server",
+            "translation": "HTTP ファイルサーバー"
+        },
+        {
+            "id": "Enable",
+            "message": "Enable",
+            "translation": "有効"
+        },
+        {
+            "id": "Open Config",
+            "message": "Open Config",
+            "translation": "設定を開く"
+        },
+        {
+            "id": "Direct Edit",
+            "message": "Direct Edit",
+            "translation": "直接編集"
+        },
+        {
+            "id": "Domains",
+            "message": "Domains",
+            "translation": "ドメイン名"
+        },
+        {
+            "id": "Copy Access Address",
+            "message": "Copy Access Address",
+            "translation": "アクセスアドレスのコピー"
+        },
+        {
+            "id": "Delete proxy \"{Name}\"",
+            "message": "Delete proxy \"{Name}\"",
+            "translation": "プロキシ「{Name}」を削除します",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "proxy.Name"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to delete proxy \"{Name}\"?",
+            "message": "Are you sure you would like to delete proxy \"{Name}\"?",
+            "translation": "プロキシ「{Name}」を削除してもよろしいですか?",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "proxy.Name"
+                }
+            ]
+        },
+        {
+            "id": "Disable proxy \"{Name}\"",
+            "message": "Disable proxy \"{Name}\"",
+            "translation": "プロキシ「{Name}」を無効にする",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "proxy.Name"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to disable proxy \"{Name}\"?",
+            "message": "Are you sure you would like to disable proxy \"{Name}\"?",
+            "translation": "プロキシ「{Name}」を無効にしてもよろしいですか?",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "proxy.Name"
+                }
+            ]
+        },
+        {
+            "id": "Disable",
+            "message": "Disable",
+            "translation": "無効"
+        },
+        {
+            "id": "Passive Port Range",
+            "message": "Passive Port Range",
+            "translation": "パッシブポート範囲"
+        },
+        {
+            "id": [
+                "AppName",
+                "FRP Manager"
+            ],
+            "message": "FRP Manager",
+            "translation": "FRP マネージャ"
+        },
+        {
+            "id": "* Support batch import, one link per line.",
+            "message": "* Support batch import, one link per line.",
+            "translation": "* バッチインポートをサポートします、1行に1つのリンクがあります。"
+        },
+        {
+            "id": "Rename automatically",
+            "message": "Rename automatically",
+            "translation": "自動的に名前を変更"
+        },
+        {
+            "id": "Ready",
+            "message": "Ready",
+            "translation": "準備"
+        },
+        {
+            "id": "Please enter the correct URL list.",
+            "message": "Please enter the correct URL list.",
+            "translation": "正しいURLリストを入力してください。"
+        },
+        {
+            "id": "Download",
+            "message": "Download",
+            "translation": "ダウンロード"
+        },
+        {
+            "id": "Enter Password",
+            "message": "Enter Password",
+            "translation": "パスワードを入力する"
+        },
+        {
+            "id": "You must enter an administration password to operate the {AppLocalName}.",
+            "message": "You must enter an administration password to operate the {AppLocalName}.",
+            "translation": "{AppLocalName} を操作するには、管理パスワードを入力する必要があります。",
+            "placeholders": [
+                {
+                    "id": "AppLocalName",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "AppLocalName"
+                }
+            ]
+        },
+        {
+            "id": "Enter Administration Password",
+            "message": "Enter Administration Password",
+            "translation": "管理者パスワードを入力"
+        },
+        {
+            "id": "The password is incorrect. Re-enter password.",
+            "message": "The password is incorrect. Re-enter password.",
+            "translation": "パスワードが正しくありません。 パスワード再入力。"
+        },
+        {
+            "id": "Invalid Input",
+            "message": "Invalid Input",
+            "translation": "無効入力"
+        },
+        {
+            "id": "Please enter a number from {Number} to {Number_1}.",
+            "message": "Please enter a number from {Number} to {Number_1}.",
+            "translation": "{Number} から {Number_1} までの数字を入力してください。",
+            "placeholders": [
+                {
+                    "id": "Number",
+                    "string": "%.[1]f",
+                    "type": "",
+                    "underlyingType": "float64",
+                    "argNum": 1
+                },
+                {
+                    "id": "Number_1",
+                    "string": "%.[2]f",
+                    "type": "",
+                    "underlyingType": "float64",
+                    "argNum": 2
+                }
+            ]
+        },
+        {
+            "id": "Please enter a number from {Arg_1} to {Arg_2}.",
+            "message": "Please enter a number from {Arg_1} to {Arg_2}.",
+            "translation": "{Arg_1} から {Arg_2} までの数値を入力してください。",
+            "placeholders": [
+                {
+                    "id": "Arg_1",
+                    "string": "%[1]s",
+                    "type": "",
+                    "underlyingType": "string",
+                    "argNum": 1
+                },
+                {
+                    "id": "Arg_2",
+                    "string": "%[2]s",
+                    "type": "",
+                    "underlyingType": "string",
+                    "argNum": 2
+                }
+            ]
+        },
+        {
+            "id": "The text does not match the required pattern.",
+            "message": "The text does not match the required pattern.",
+            "translation": "テキストが必要なパターンと一致しません。"
+        },
+        {
+            "id": "Selection Required",
+            "message": "Selection Required",
+            "translation": "選択必須"
+        },
+        {
+            "id": "Please select one of the provided options.",
+            "message": "Please select one of the provided options.",
+            "translation": "提供されたオプションのいずれかを選択してください。"
+        },
+        {
+            "id": "A selection is required.",
+            "message": "A selection is required.",
+            "translation": "選択が必要です。"
+        }
+    ]
+}
